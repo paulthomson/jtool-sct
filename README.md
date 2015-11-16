@@ -1,4 +1,4 @@
-# JTool SCT (A Java tool for systematic concurrency testing)
+# JTool SCT (a Java tool for systematic concurrency testing)
 
 ## Getting started
 
@@ -61,7 +61,7 @@ $ instr_rt
 $ install_rt
 ```
 
-`build_all` builds jtool and all benchmarks. `instr_rt` instruments the current JDK 7 runtime jar and places it in the `$JTOOL_ROOT/temp` directory. `install_rt` places the instrumented jar in the local maven repository so that it be found easily. Look at the env file if you want to see what these commands actually do.
+`build_all` builds jtool and all benchmarks. `instr_rt` instruments the current JDK 7 runtime jar and places it in the `$JTOOL_ROOT/temp` directory. `install_rt` places the instrumented jar in the local maven repository so that it can be found easily. Look at the env file if you want to see what these commands actually do.
 
 * You can now execute a test harness, replacing `java` with the `jtool` command:
 ```
