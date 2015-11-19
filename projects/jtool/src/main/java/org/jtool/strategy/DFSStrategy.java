@@ -192,6 +192,7 @@ public class DFSStrategy implements SchedulingStrategy
   public void prepareForNextExecution() throws NoMoreExecutionsException
   {
     stack.prepareForNextExecution(doDpor);
+    numPreemptions = 0;
   }
 
   private int getNegativeReturnCode()
